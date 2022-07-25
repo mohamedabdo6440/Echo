@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar-nav {
+        background-color: #fff;
+        position: absolute;
+        top: 100px;
+        width: 50%;
+        height: 85vh;
+        text-align: end;
+        right: 2px;
+        padding-right: 20px;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 12%), 0 6px 20px 0 rgb(0 0 0 / 9%);
+    }
+}
+
+.navbar-nav li {
+    padding-right: 10px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .tow {
+
+    position: relative;
+}
+
+.navbar-nav .nav-item .dropdown-menu .tow .list-in {
+
+    position: absolute;
+    top: 30px;
+    background-color: #fff;
+    left: 160px;
+    list-style: none;
+    border: 1px solid #0000002e;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 12%), 0 6px 20px 0 rgb(0 0 0 / 9%);
+}
+
+.navbar-nav .nav-item .dropdown-menu .tow .list-in li {
+
+    margin-bottom: 18px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .tow .list-in .btn .btn-primary {
+
+    width: 134px;
+    background-color: #081158;
+}
+
+/*CLASS JS*/
+.Style-span {
+
+    background-color: #fbb2448f;
+    border-radius: 13px;
+    border: 3px solid #fbb2448f;
+    font-size: 11px;
+    color: #0000008f;
+    width: 100px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+}
+
+.value {
+    font-size: 50px;
+    display: block;
+    font-weight: bold;
+    color: #081158;
+}
+
+
+/*start header*/
+.container-header .text h6 {
+    background-color: #fbb2448f;
+    border-radius: 13px;
+    border: 3px solid #fbb2448f;
+    font-size: 11px;
+    color: #0000008f;
+    width: 131px;
+}
+
+.container-header .text h1 {
+    color: #081158;
+    font-size: 55px;
+}
+
+.container-header .text p {
+    color: #0000008f;
+}
+
+.container-header .text .btns #btn1 {
+
+    background-color: #081158;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.container-header .text .btns #btn1:hover {
+
+    background-color: #fff;
+    color: #081158;
+    border: 1px solid #081158;
+}
+
+.container-header .text .btns #btn2 {
+
+    background-color: #fff;
+    color: #081158;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #081158;
+}
+
+.container-header .text .btns #btn2:hover {
+
+    background-color: #081158;
+    color: #fff;
+    border: 1px solid #081158;
+}
+
+.container-header .image {
+    background-image: url('/images/hero_1.png.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+/*end header*/
+
+/*start Features*/
+
+.Features .row span {
+    background-color: #fbb2448f;
+    border-radius: 23px;
+    border: 3px solid #fbb2448f;
+    padding: 3px;
+    font-size: 13px;
+    color: #0000008f;
+}
+
+.Features .row h1 {
+    color: #081158;
+}
+
+.Features .row .icons span {
+    border-radius: 10px;
+    border: 0;
+    padding: 1px;
+}
+
+/*end Features*/
+
+/*agency*/
+section .agency .row .col-md-7 img {
+    width: 100%;
+    height: 95%;
+}
+
+section .agency .row .col-md-5 span {
+
+    background-color: #fbb2448f;
+    border-radius: 23px;
+    border: 3px solid #fbb2448f;
+    padding: 3px;
+    font-size: 13px;
+    color: #0000008f;
+}
+
+section .agency .row .col-md-5 h1 {
+    color: #081158;
+}
+
+section .agency .row .col-md-5 button {
+    background-color: #081158;
+}
+
+section .agency .row .col-md-5 button:hover {
+    background-color: #fff;
+    color: #081158;
+}
+
+
+/*agency*/
+
+/*Services*/
+.Services span {
+    background-color: #fbb2448f;
+    border-radius: 23px;
+    border: 3px solid #fbb2448f;
+    padding: 3px;
+    font-size: 13px;
+    color: #0000008f;
+}
+
+.Services h1 {
+    color: #081158;
+    font-weight: 800;
+}
+
+.Services .row .col-md-4 {
+    border: 1px solid #0000001f;
+    height: 206px;
+    margin: 14px;
+}
+
+.Services .row .col-md-4 .d-flex span {
+
+    background-color: #fbb2448f;
+    border-radius: 33px;
+    border: 1px solid #fbb2448f;
+    font-size: 20px;
+    color: #0000008f;
+    height: 67px;
+    margin-top: 23px;
+    position: relative;
+}
+
+.Services .row .col-md-4 .d-flex h3 {
+
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/*Services*/
+
+
+
+/*Testimonials*/
+
+.sec-Testimonials {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    padding-top: 25px;
+}
+
+.sec-Testimonials .Testimonials span {
+    background-color: #fbb2448f;
+    border-radius: 33px;
+    border: 1px solid #fbb2448f;
+    font-size: 13px;
+    color: #0000008f;
+    height: 67px;
+}
+
+.sec-Testimonials .Testimonials h1 {
+    color: #081158;
+    font-weight: 800;
+}
+
+.sec-Testimonials .Testimonials p {
+
+    color: #0000008f;
+}
+
+/*Testimonials salider card style */
+.card1 {
+    width: 270px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 12%), 0 6px 20px 0 rgb(0 0 0 / 9%);
+}
+
+.card1:hover {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349), 0 6px 20px 0 rgba(0, 0, 0, 0.315);
+}
+
+.card1 .card-content1 p {
+
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card1 .name1 .image1 {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('/images/person_1.jpg.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.card1 .name1 .image2 {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('/images/person_2.jpg.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.card1 .name1 .image3 {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('/images/person_3.jpg.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.card1 .name1 .content1 h6 {
+    font-size: 20px;
+    color: #081158;
+    font-weight: 700;
+}
+
+/*swiper*/
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 1px;
+    height: 3px;
+    width: 15px;
+    background-color: #081158;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    color: #081158;
+    font-size: 18px;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    color: #081158;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .card1 {
+        width: 110px;
+        height: 200px;
+        padding: 2px;
+    }
+
+    .card1 .card-content1 p {
+
+        width: 98%;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 12px;
+    }
+
+
+    .card1 .name1 .image1 {
+
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .card1 .name1 .image2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .card1 .name1 .image3 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .card1 .name1 .content1 h6 {
+        width: 100%;
+        font-size: 10px;
+        color: #081158;
+        font-weight: 500;
+    }
+
+    .card1 .name1 .content1 p {
+        font-size: 10px;
+    }
+
+}
+
+/*Testimonials*/
+
+/*sec-footer*/
+
+a {
+    text-decoration: none;
+    color: #0000008f;
+}
+
+.sec-foot {
+    height: 50vh;
+}
+
+/*sec-footer*/
